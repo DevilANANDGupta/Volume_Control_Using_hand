@@ -24,7 +24,6 @@ while True:
     c = cv2.cvtColor
     imgRGB=(img)
     results = hands.process(imgRGB)
-
     lmList  = []
     if results.multi_hand_landmarks:
         for handlandmark in results.multi_hand_landmarks:
