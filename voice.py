@@ -1,4 +1,4 @@
-#Import
+#Import Libraries
 import cv2
 from cv2 import cvtColor
 import mediapipe as mp
