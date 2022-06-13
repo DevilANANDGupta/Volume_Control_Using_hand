@@ -45,9 +45,9 @@ while True:
         volume.SetMasterVolumeLevel(vol, None)
     cv2.imshow('Image',img)
     if cv2.waitKey(1) & 0xff == ord(' '):
-        break
-# cap.release()
-# cv2.destroyAllWindows()
+        break 
+cap.release()
+cv2.destroyAllWindows()
 
 
 
